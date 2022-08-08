@@ -36,5 +36,6 @@ function resetAll(){
   minutes.innerHTML = "00";
   seconds.innerHTML = "00";
   ms.innerHTML = "00";
+ clearTimeout(timerInterval);
 }
 
