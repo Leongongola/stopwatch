@@ -21,9 +21,6 @@ function start() {
       ms.innerHTML = msVal < 10 ? "0" + msVal.toString() : msVal;
     }, 1000/60);
 
-    if (minutes.innerHTML = "60"){
-      minutes.innerHTML = "0"
-    }
   }
 
 
