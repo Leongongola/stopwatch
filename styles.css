@@ -1,0 +1,62 @@
+body{
+    background-color: #004643;
+    font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width:800px){
+   
+   body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   }
+    .main-header{
+    color: #fffffe;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+   } 
+   #timer-list{
+    display: flex;
+    justify-content: space-around;
+   text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 automj;
+   }
+   #hours, #minutes, #seconds, #ms{
+    color: #001e1d;
+    background-color: #abd1c6;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+   }
+   #start-timer, #stop-timer, #reset-timer{
+    background-color: #f9bc60;
+    color: #001e1d;
+    padding: 15px 30px;
+    margin: 10px;
+    border-radius: 8px;
+    border-style: none;
+   }
+   #start-timer:hover, #stop-timer:hover, #reset-timer:hover{
+    background-color: #001e1d;
+    color: #f9bc60;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
