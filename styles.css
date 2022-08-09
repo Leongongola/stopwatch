@@ -45,18 +45,50 @@ body{
     color: #f9bc60;
    }
 
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (min-width:800px){
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+       }
+        .main-header{
+        color: #fffffe;
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 70px;
+       } 
+       #timer-list{
+        display: flex;
+        justify-content: space-around;
+       text-align: center;
+        list-style: none;
+        padding: 0;
+        margin: 0 automj;
+       }
+       #hours, #minutes, #seconds, #ms{
+        color: #001e1d;
+        background-color: #abd1c6;
+        padding: 30px;
+        margin: 10px;
+        border-radius: 15px;
+        font-size: 60px;
+       }
+       #start-timer, #stop-timer, #reset-timer{
+        background-color: #f9bc60;
+        color: #001e1d;
+        padding: 15px 30px;
+        margin: 10px;
+        border-radius: 8px;
+        border-style: none;
+        font-size: 30px;
+       }
+       #start-timer:hover, #stop-timer:hover, #reset-timer:hover{
+        background-color: #001e1d;
+        color: #f9bc60;
+       }
 }
