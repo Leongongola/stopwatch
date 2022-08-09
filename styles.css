@@ -27,10 +27,10 @@ body{
    #hours, #minutes, #seconds, #ms{
     color: #001e1d;
     background-color: #abd1c6;
-    padding: 20px;
+    padding: 30px;
     margin: 10px;
     border-radius: 15px;
-    font-size: 20px;
+    font-size: 28px;
    }
    #start-timer, #stop-timer, #reset-timer{
     background-color: #f9bc60;
